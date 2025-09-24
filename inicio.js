@@ -6,8 +6,8 @@ function validar() {
   const inputPassword = document.getElementById("password").value;
 
   if (inputUsuario === usuario && inputPassword === password) {
-    alert("¡Bienvenido! Sacala del ángulo MARCOOOOOOOOOOS!!!");
-    window.location.href = "cuerpo.html";
+    alert("¡Bienvenido!");
+    window.location.href = "acerca de.html";
   } else {
     alert("Contraseña o usuario incorrecto");
   }
